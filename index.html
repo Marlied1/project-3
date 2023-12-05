@@ -4,47 +4,257 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luxurious Bundles</title>
+    <title>BundleZ</title>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+     <link rel="stylesheet"
+     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Playfair+Display:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="/path/to/favicon.ico" type="image/x-icon">
+
 </head>
 <body>
-    
-    <div id="main-conatainer">
 
-        <div>
-            <nav>
-                <div class="left-section">
-                    <a href="#" class="logo">Bundlez<span>Z</span></a>
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Contact</a>
-                </div>
-                <div class="right-section">
-                    <i class="fas fa-search"></i>
-                    <i class="fas fa-shopping-cart"></i>
-                </div>
-            </nav>
-        </div>
+    <!-- header -->
 
         <header>
+            <a href="#" class="logo">Bundle<span class="logoZ">Z</span></a>
+
+            <ul class="navlist">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#new">Shop</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="header-icons">
+                <a href="#"><i class='bx bx-shopping-bag'></i></a>
+                <div class="bx bx-menu" id="menu-icon"></div>
+            </div>
+         </header>
+
+          <!-- home -->
+
+          <section class="home" id="home">
+              <div class="home-text">
+                  <h1>Induldge In <br><span>Luxury</span></h1>
+                  <p>New bundles, in a variety of styles and textures!</p>
+                  <a href="#" class="btn">Shop Now</a>
+              </div>
+          </section>
+
+           <!-- Bundlez -->
+
+           <section class="featured" id="featured">
+               <div class="center-text">
+                   <h2>Featured Categories</h2>
+               </div>
+
+               <div class="featured-content">
+                   <div class="row">
+                       <img src="/img/Untitled-3.jpeg" alt="">
+                       <div class="fea-text">
+                           <h5>BundleZ</h5>
+                           <p>10 items</p>
+                       </div>
+                       <div class="arrow">
+                        <a href="#"><i class='bx bx-right-arrow-alt'></i></a>
+                       </div>
+                   </div>
+
+                   <div class="row">
+                       <img src="/img/7.jpeg" alt="">
+                       <div class="fea-text">
+                           <h5>BundleZ</h5>
+                           <p>10 items</p>
+                       </div>
+                       <div class="arrow">
+                        <a href="#"><i class='bx bx-right-arrow-alt'></i></a>
+                       </div>
+                   </div>
+
+                   <div class="row">
+                       <img src="/img/8.jpeg" alt="">
+                       <div class="fea-text">
+                           <h5>BundleZ</h5>
+                           <p>10 items</p>
+                       </div>
+                       <div class="arrow">
+                        <a href="#"><i class='bx bx-right-arrow-alt'></i></a>
+                       </div>
+                   </div>
+
+                   <div class="row">
+                    <img src="/img/9.jpeg" alt="">
+                    <div class="fea-text">
+                        <h5>BundleZ</h5>
+                        <p>10 items</p>
+                    </div>
+                    <div class="arrow">
+                     <a href="#"><i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img src="/img/10.jpeg" alt="">
+                    <div class="fea-text">
+                        <h5>BundleZ</h5>
+                        <p>10 items</p>
+                    </div>
+                    <div class="arrow">
+                     <a href="#"><i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img src="/img/11.jpeg" alt="">
+                    <div class="fea-text">
+                        <h5>BundleZ</h5>
+                        <p>10 items</p>
+                    </div>
+                    <div class="arrow">
+                     <a href="#"><i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+                </div>
+
+
+               </div>
+           </section>
+
+
+               
+        <!-- Cta -->
+           <section class="cta">
+            <div class="cta-text">
+                <h6>Exclusive Discounts</h6>
+                <h4>20% OFF <br>Selected Products</h4>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+           </section>
+
+            <!-- new -->
+            <section class="new" id="new">
+                <div class="center-text">
+                   <h2>Shop</h2>
+               </div>
+
+               <div class="new-content">
+                    <div class="box">
+                        <img src="/img/15.jpeg" alt="">
+                        <h5>Raw Straight</h5>
+                        <h6>$75</h6>
+                        <div class="sale">
+                            <h4>sale</h4>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="/img/14.jpeg" alt="">
+                        <h5>Raw Body Wave</h5>
+                        <h6>$150</h6>
+                        <div class="sale">
+                            <h4>sale</h4>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="/img/13.jpeg" alt="">
+                        <h5>Curly Brazilian</h5>
+                        <h6>$175</h6>
+                        <div class="sale">
+                            <h4>sale</h4>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="/img/12.jpeg" alt="">
+                        <h5>Deep wave human hair</h5>
+                        <h6>$250</h6>
+                        <div class="sale">
+                            <h4>sale</h4>
+                        </div>
+                    </div>
+               </div>
+            </section>
+
+    <!-- brand -->
+
+            <section class="brand">
+                <div class="brand-content">
+                    <div class="main">
+                        <img src="/img/cam.jpeg" alt="">
+                    </div>
+                    <div class="main">
+                        <img src="/img/malay.jpeg" alt="">
+                    </div>
+                    <div class="main">
+                        <img src="/img/mink.jpeg" alt="">
+                    </div>
+                    <div class="main">
+                        <img src="/img/peru.jpeg" alt="">
+                    </div>
+                    <div class="main">
+                        <img src="/img/kinky.jpeg" alt="" >
+                    </div>
+                </div>
+            </section>
+
+    
+            <!-- contact -->
+
+            <section class="contact" id="contact">
+                <div class="main-contact">
+                    <h3>BundleZ</h3>
+                    <h5>Connect With Us</h5>
+                    <div class="icons">
+                        <a href="#"><i class='bx bxl-facebook-square'></i></a>
+                        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="main-contact">
+                    <h3>Explore</h3>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#featured">Featured</a></li>
+                    <li><a href="#new">Shop</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </div>
+
+                <div class="main-contact">
+                    <h3>services</h3>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Free shipping</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                </div>
+
+                <div class="main-contact">
+                    <h3>shopping</h3>
+                    <li><a href="#">Hair Store</a></li>
+                    <li><a href="#">Trending styles</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Sale</a></li>
+                </div>
+            </section>
+        
+            <div class="last-text">
+                <p>Copyright &copy; 2024 All rights reserved | | This Template is by Marlie D.| | <span>Photo Credits: Pinterest</span></p>
+            </div>
+
+            <!-- scroll top -->
+
+            <a href="#" class="top"><i class='bx bx-chevrons-up'></i></a>
+
+
             
-        </header>
 
-
-
-       </div>
-
-
-
-
-
-
-
-    </div>
-
-
-
-    <script src="/js/main.js"></script>
+    <!-- Custom js link -->
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
 </body>
 </html>
