@@ -501,7 +501,12 @@ navigation */
 }
 
 
-
+@media screen and (max-width: 768px) {
+    .home, .cta {
+        background: none; 
+    }
+   
+}
 
  @media (max-width: 600px) {
     #menu-icon {
@@ -609,6 +614,7 @@ navigation */
     .fea-text p{
     
         font-size: 10px;
+    
 
 }
 }
